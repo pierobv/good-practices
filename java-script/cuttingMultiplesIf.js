@@ -47,7 +47,7 @@ const typesOfEvent = {
     action8() { console.log("This is my action 8") },
 }
 
-const myTypeOfEvent2 = "action2"
+const myTypeOfEvent2 = "action2" // We probably will receive that in runtime
 const myFunc2 = typesOfEvent[myTypeOfEvent2]
 
 
